@@ -1,0 +1,42 @@
+{
+  "name": "FilmPlus Latino",
+  "version": "2.1.0",
+  "scrapers": [
+    {
+      "id": "poseidonhd",
+      "name": "PoseidonHD",
+      "description": "Streams en Latino desde poseidonhd2.co (método biz de FilmPlus). Sitio en vivo.",
+      "version": "2.1.0",
+      "author": "FilmPlus port",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/poseidonhd.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "cuevana",
+      "name": "Cuevana / PelisPlusHD",
+      "description": "Latino/Castellano/Subtitulado vía esplay GraphQL (método hd de FilmPlus).",
+      "version": "2.1.0",
+      "author": "FilmPlus port",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/cuevana.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "pelisplay",
+      "name": "PelisPlay",
+      "description": "Streams en Latino desde PelisPlay (método pelisfile de FilmPlus). Actualiza el dominio si cambió.",
+      "version": "2.1.0",
+      "author": "FilmPlus port",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/pelisplay.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["es"]
+    }
+  ]
+}
